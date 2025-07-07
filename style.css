@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url("image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    width: 40vw;
+
+}
+#countdown {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    font-family: cursive;
+}   
+
+button{
+    padding: 10px 20px; 
+    background-color: #10a37f; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer;
+    margin-top: 77vh;
+}
+   
+
+@media (max-width: 1200px) {
+    .container {
+        width: 50vw; /* Ajusta a largura da container para ser maior em dispositivos móveis */
+        padding: 25px; /* Reduz o padding para dar mais espaço */
+    }
+    #countdown {
+        font-size: 24px; /* Ajusta o tamanho da fonte da contagem regressiva */
+    }
+    button{
+        margin-top: 65vh;
+    }
+}
+/* Responsividade para telas menores (dispositivos móveis) */
+@media (max-width: 768px) {
+    .container {
+        width: 70vw; /* Ajusta a largura da container para ser maior em dispositivos móveis */
+        padding: 20px; /* Reduz o padding para dar mais espaço */
+    }
+    #countdown {
+        font-size: 22px; /* Ajusta o tamanho da fonte da contagem regressiva */
+    }
+}
+
+/* Responsividade para telas muito pequenas (dispositivos menores que 480px) */
+@media (max-width: 600px) {
+    .container {
+        width: 90vw; /* Aumenta a largura da container para telas ainda menores */
+        padding: 15px; /* Reduz o padding */
+    }
+    #countdown {
+        font-size: 20px; /* Ajusta ainda mais o tamanho da contagem regressiva */
+    }
+
+}
+@media (max-width: 500px) {
+    .container {
+        width: 90vw; /* Aumenta a largura da container para telas ainda menores */
+        padding: 15px; /* Reduz o padding */
+    }
+    #countdown {
+        font-size: 20px; /* Ajusta ainda mais o tamanho da contagem regressiva */
+    }
+
+}
