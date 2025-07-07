@@ -13,7 +13,7 @@ const x = setInterval(function() {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Exibe o resultado no elemento com o id "countdown"
-    document.getElementById("countdown").innerHTML = "Retorno Previsto em: "+days + "d " + hours + "h "
+    document.getElementById("countdown").innerHTML = "Ariel está de férias!<br>Retorno Previsto em: "+days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
 
     // Se a contagem regressiva terminar, exibe uma mensagem
